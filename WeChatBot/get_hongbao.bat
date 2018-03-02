@@ -1,0 +1,1 @@
+start /min python chat_bot.py

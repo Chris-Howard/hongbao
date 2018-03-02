@@ -2,6 +2,8 @@
 USAGE: python eleme.gui.py
 
 使用前请确保已安装PyQt5及requests_html
+pip install PyQt5
+pip install requests_html
 
 TODO: 学习PyQT，把程序做得好看点:)
 

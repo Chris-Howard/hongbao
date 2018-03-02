@@ -10,7 +10,7 @@ header = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 
 # 将下面的mobile字段修改为你自己的手机号码
-mobile = '18240439497'
+mobile = 'XXXXXXXX'
 count = 0
 bot = Bot()
 

@@ -9,8 +9,15 @@ server = 'https://hongbao.xxooweb.com/hongbao'
 header = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 
-# 将下面的mobile字段修改为你自己的手机号码
-mobile = 'XXXXXXXX'
+# 初次使用需要输入手机号码，保存在phone.txt中
+try:
+    with open('phone.txt','r') as phone:
+        mobile=phone.read()
+except:
+    mobile = input('请输入手机号码：')
+    with open('phone.txt', 'w') as phone:
+        phone.write(mobile)
+
 count = 0
 bot = Bot()
 
